@@ -1,0 +1,70 @@
+//#region Outer Navbar
+
+.navBar {
+    // Positioning
+    position: fixed;
+    margin: 0 auto 0 auto;
+    padding: 10px 20px;
+
+    left: 0;
+    top: 0.5vw;
+    right: 0;
+
+    width: 50%;
+    z-index: 100;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+    // Styling
+    background: linear-gradient(to right, rgba(255, 207, 32, 0.5), rgba(255, 111, 0, 0.5));
+    border-radius: 20px;
+
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+
+.navBar.hidden {
+    // Styling
+    transform: translateY(-100%);
+}
+
+//#endregion
+
+//#region Inner Navbar
+
+.title {
+    // Positioning
+    margin: auto auto auto 1vw;
+
+    // Styling
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.navList {
+    // Positioning
+    padding: 0;
+
+    display: flex;
+
+    // Styling
+    list-style-type: none;
+}
+
+.navItem {
+    // Positioing
+    margin: 0 10px;
+}
+
+.navLink {
+    // Styling
+    color: #ffffff;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+//#endregion
