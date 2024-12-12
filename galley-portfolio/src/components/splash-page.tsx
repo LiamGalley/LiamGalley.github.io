@@ -4,7 +4,7 @@ import ShuffleTitles from "./shuffle-titles";
 
 const SplashPage: React.FC = () => {
     return (
-        <div className="body">
+        <div className="splash-body">
             <div className="top-splash-panel">
                 <h1 className="pre-title">THE COZY, WARM HOMESTEAD OF</h1>
                 <h1 className="title">LIAM GALLEY</h1>

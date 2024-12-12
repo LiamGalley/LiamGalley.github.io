@@ -6,6 +6,7 @@ import emailIcon from './assets/svgs/Black_Email_SVG.svg'
 import githubIcon from './assets/svgs/Black_Github_SVG.svg'
 import linkedinIcon from './assets/svgs/Black_LinkedIn_SVG.svg'
 import websiteIcon from './assets/svgs/Black_WWW_SVG.svg'
+import AboutMePage from './components/about-me'
 
 // IMAGES ATTRIBUTIONS TO https://www.iconfinder.com/search/icons?family=eon 
 const iconList = [
@@ -20,6 +21,7 @@ function App() {
     <>
       <NavBar title='LG'></NavBar>
       <SplashPage></SplashPage>
+      <AboutMePage></AboutMePage>
       <Footer iconList={iconList}></Footer>
     </>
   )
