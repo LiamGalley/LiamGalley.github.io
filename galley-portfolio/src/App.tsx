@@ -14,7 +14,7 @@ import ProjectsPage from './components/projects'
 const iconList = [
   { svg: githubIcon, link: "https://github.com/LiamGalley", alt: "Github Icon" },
   { svg: linkedinIcon, link: "https://www.linkedin.com/in/liam-galley/", alt: "LinkedIn Icon" },
-  { svg: websiteIcon, link: "...", alt: "WWW Icon" },
+  { svg: websiteIcon, link: "LiamGalley.github.io", alt: "WWW Icon" },
   { svg: emailIcon, link: "...", alt: "Email Icon" }
 ]
 

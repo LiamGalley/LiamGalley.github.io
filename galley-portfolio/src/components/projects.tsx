@@ -8,7 +8,7 @@ import portfolio from "../assets/images/Galley_Portfolio.png"
 const ProjectsPage: React.FC = () => {
     return (
         <div className="projects-body">
-            <h1>Projects</h1>
+            <h1 id="projects">Projects</h1>
 
             <div className="project-cards">
                 <ProjectCard

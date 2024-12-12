@@ -7,7 +7,7 @@ const ResumePage: React.FC = () => {
     return (
         <div className="resume-body">
             <div className="left-resume-panel">
-                <h1>Work Experience</h1>
+                <h1 id="resume">Work Experience</h1>
                 <div className="experience-panel1">
                     <h2>Garderner</h2>
                     <p>06/2022 - 08/2024</p>

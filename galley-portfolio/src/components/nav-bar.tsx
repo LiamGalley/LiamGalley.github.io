@@ -38,16 +38,16 @@ const NavBar: React.FC<NavProps> = ({ title }) => {
             <h1 className="title">{title}</h1>
             <ul className="navList">
                 <li className="navItem">
-                    <a className="navLink"> Home </a>
+                    <a href="#home" className="navLink"> Home </a>
                 </li>
                 <li className="navItem">
-                    <a className="navLink"> About </a>
+                    <a href="#about-me" className="navLink"> About </a>
                 </li>
                 <li className="navItem">
-                    <a className="navLink"> Resume </a>
+                    <a href="#resume" className="navLink"> Resume </a>
                 </li>
                 <li className="navItem">
-                    <a className="navLink"> Projects </a>
+                    <a href="#projects" className="navLink"> Projects </a>
                 </li>
                 <li className="navItem">
                     <a className="navLink"> Techstack </a>

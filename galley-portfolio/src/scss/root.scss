@@ -9,6 +9,10 @@ body {
   height: 200vh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   font-family: 'Franklin Gothic Medium', Helvetica, system-ui, Arial, sans-serif;
   line-height: 1.5;
