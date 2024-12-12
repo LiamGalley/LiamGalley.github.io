@@ -19,7 +19,7 @@
     align-items: center;
 
     // Styling
-    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, rgba(255, 207, 32, 0.5), rgba(255, 111, 0, 0.5));
     border-radius: 20px;
 
     transform: translateY(0);
@@ -41,7 +41,7 @@
 
     // Styling
     font-size: 2rem;
-    color: #c95c08;
+    color: #ffffff;
 }
 
 .navList {
@@ -61,7 +61,7 @@
 
 .navLink {
     // Styling
-    color: #fc8225;
+    color: #ffffff;
     text-decoration: none;
 
     cursor: pointer;

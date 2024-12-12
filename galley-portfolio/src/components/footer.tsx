@@ -15,7 +15,7 @@ const Footer: React.FC<FooterProps> = ({ iconList }) => {
     return (
         <footer>
             <div className="leftSection">
-                <p>Forged & Constructed in the fires of <a href="https://lotr.fandom.com/wiki/Khazad-dûm">Khazad-dûm</a>.</p>
+                <p>Forged & Built in the fires of <a href="https://lotr.fandom.com/wiki/Khazad-dûm">Khazad-dûm</a>.</p>
             </div>
 
             <div className="middleSection">
