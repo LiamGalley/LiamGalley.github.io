@@ -11,8 +11,9 @@
 .resume-body {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     overflow: hidden;
+    margin-top: 5vw;
     display: flex;
     justify-content: space-between;
 }
@@ -42,6 +43,10 @@
         margin-left: 1vw;
         text-align: start;
         list-style: square;
+    }
+
+    li {
+        font-size: 0.75rem;
     }
 }
 

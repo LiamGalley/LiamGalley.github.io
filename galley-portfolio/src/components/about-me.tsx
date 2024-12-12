@@ -6,7 +6,7 @@ const AboutMePage: React.FC = () => {
     return (
         <div className="about-me-body">
             <div className="about-me-left-panel">
-                <h2>About Me</h2>
+                <h2 id="about-me">About Me</h2>
                 <p>
                     Good morning, good evening or goodnight, for whenever you may be reading this. My
                     name is <a href="https://www.linkedin.com/in/liam-galley/">Liam Galley</a> <i>(Next to the good looking guy on the right)</i> and I'm a software

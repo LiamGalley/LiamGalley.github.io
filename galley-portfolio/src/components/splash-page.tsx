@@ -5,7 +5,7 @@ import ShuffleTitles from "./shuffle-titles";
 const SplashPage: React.FC = () => {
     return (
         <div className="splash-body">
-            <div className="top-splash-panel">
+            <div id="home" className="top-splash-panel">
                 <h1 className="pre-title">THE COZY, WARM HOMESTEAD OF</h1>
                 <h1 className="title">LIAM GALLEY</h1>
                 <ShuffleTitles />
@@ -16,7 +16,7 @@ const SplashPage: React.FC = () => {
                     what you're looking for, then take a look at my <a href="">socials</a> and
                     ask me a question anywhere.
                 </p>
-                <button>Lets Collobrate!</button>
+                <a href="https://www.linkedin.com/in/liam-galley/"><button>Lets Collobrate!</button></a>
             </div>
         </div>
     );
