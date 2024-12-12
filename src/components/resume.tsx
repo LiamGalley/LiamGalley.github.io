@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import '../scss/body/resume.scss';
 import resume from '../assets/pdfs/LiamGalley_CV.pdf'
 import resumePhoto from '../assets/images/LiamGalley_CV-1.png'
