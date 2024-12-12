@@ -1,10 +1,11 @@
-import './scss/root/root.scss'
+import './scss/root.scss'
 import NavBar from './components/nav-bar'
 import Footer from './components/footer'
-import emailIcon from './assets/Black_Email_SVG.svg'
-import githubIcon from './assets/Black_Github_SVG.svg'
-import linkedinIcon from './assets/Black_LinkedIn_SVG.svg'
-import websiteIcon from './assets/Black_WWW_SVG.svg'
+import SplashPage from './components/splash-page'
+import emailIcon from './assets/svgs/Black_Email_SVG.svg'
+import githubIcon from './assets/svgs/Black_Github_SVG.svg'
+import linkedinIcon from './assets/svgs/Black_LinkedIn_SVG.svg'
+import websiteIcon from './assets/svgs/Black_WWW_SVG.svg'
 
 // IMAGES ATTRIBUTIONS TO https://www.iconfinder.com/search/icons?family=eon 
 const iconList = [
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <NavBar title='LG'></NavBar>
+      <SplashPage></SplashPage>
       <Footer iconList={iconList}></Footer>
     </>
   )
